@@ -119,5 +119,4 @@ Project uses pytest-cov for code coverage and GitHub Actions for automation.
 ### Challenges and Solutions
 -- Duplicate emails on test rerun	> Used uuid.uuid4() to create unique test emails
 -- Import/module errors during test >	Used PYTHONPATH=. and absolute imports (from bookstore...)
--- JWT-protected routes in tests	> Generated token dynamically from /login API
-    This project is licensed under the MIT License - see the LICENSE file for details
+
